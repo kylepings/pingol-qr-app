@@ -43,7 +43,7 @@
           variant="flat"
           block
         >
-          <v-icon left>mdi-google</v-icon>Sign in with Google
+          <v-icon left>mdi-google</v-icon>Sign in with Google.
         </v-btn>
         
       </v-card-text>

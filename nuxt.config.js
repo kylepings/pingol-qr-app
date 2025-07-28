@@ -69,7 +69,7 @@ export default {
        },
        responseType: "token id_token",
        scope: ["openid", "profile", "email"],
-       redirectUri: "http://localhost:3000/auth/callback",
+       redirectUri: procces.env.REDIRECT_URI,
        codeChallengeMethod: "",
       },
     },

@@ -69,7 +69,7 @@ export default {
        },
        responseType: "token id_token",
        scope: ["openid", "profile", "email"],
-       redirectUri: procces.env.REDIRECT_URI,
+       redirectUri: process.env.REDIRECT_URI,
        codeChallengeMethod: "",
       },
     },

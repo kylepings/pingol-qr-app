@@ -69,7 +69,7 @@ export default {
        },
        responseType: "token id_token",
        scope: ["openid", "profile", "email"],
-       redirectUri: 'https://pingol-qr-app.vercel.app/auth/callback',
+       redirectUri: process.env.REDIRECT_URI,
        codeChallengeMethod: "",
       },
     },
